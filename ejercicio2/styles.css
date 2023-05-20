@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.form {
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+  background: linear-gradient(#ee83eaf1, #6b4cf5);
+  box-shadow: 4px 9px 16px 0px rgba(0, 0, 0, 0.638);
+}
+
+.font {
+  color: #ffffff;
+}
+
+#Email,
+#Password,
+#Género {
+  width: 100%;
+  padding: 7px;
+}
+
+#button {
+  padding: 5px 15px;
+  margin-left: 175px;
+}
+
+@media (max-width: 500px) {
+  .form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 500px) {
+  .form {
+    width: 300px;
+  }
+}
